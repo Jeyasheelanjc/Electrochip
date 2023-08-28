@@ -1,0 +1,141 @@
+.chckbtn{
+    font-size: 30px;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media screen and (max-width:576px){
+    .navLinks{
+        flex-direction: column;
+        display: none;
+        position:absolute;
+        width: 100%;
+        height: 25vh;
+        line-height: 2;
+        bottom: 65%;
+        background-color: #eae6f5;
+        left:0;
+        right: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .chckbtn{
+        display: block;
+    }
+
+    #check:checked~.navLinks{
+        display: block;
+    }
+}
+@media screen and (max-width:576px){
+
+/* media query */
+
+    .cards-next{
+        margin: 0;
+    }
+    .contact-us{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact{
+        padding: 30px 0;
+    }
+    .form-1{
+        width: 100%;
+    }
+    .map {
+        padding: 30px;
+    }
+    .map iframe{
+        width: 100%;
+        /* height: 600%; */
+    }
+    .heroSection{
+        padding: 40px 0;
+        flex-direction: column;
+    } 
+    .hero-img img{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .heroContainer{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .heroSection .content h1{
+        padding: 0;
+        width: 100%;
+
+    }
+    .heroSection .content p{
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .aboutSection{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .aboutSection .content{
+        padding: 0 0 50px;
+    }
+    .aboutSection p{
+        padding: 0;
+    }
+    .image-box-1 img{
+        width: 70%;
+    }
+    .image-box-2 img{
+        width:100%;
+    }
+    .blogContainer{
+        /* padding: 0; */
+    }
+    .blog-logo{
+        width: 200%;
+        margin-left: -4rem;
+    }
+    .blog-1{
+        width: 120%;
+    }
+    .footer{
+        padding: 30px 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footlinks{
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+    .searchContainer{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+        
+    }
+    .searchbar{
+        flex-direction: column;
+        width: 100px;
+        gap: 1rem;
+        height: 50px;
+    }
+    .searchbar input{
+        width: 350px;
+        height: 70px;
+        padding: 15px 0;
+        /* flex: 0; */
+        margin-left: -8rem;
+    }
+    .searchbar button{
+        padding:  10px 10px;
+        text-align: center;
+    }
+
+}
