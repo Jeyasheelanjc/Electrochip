@@ -48,11 +48,13 @@
         width: 100%;
     }
     .map {
-        padding: 30px;
+        padding: 10px;
+        margin-left: -0rem;
     }
     .map iframe{
-        width: 100%;
+        width: 400px;
         /* height: 600%; */
+
     }
     .heroSection{
         padding: 40px 0;
